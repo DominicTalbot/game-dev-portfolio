@@ -19,7 +19,10 @@
 - Custom terrain and AI-driven opponent cars  
 - Lap-tracking system with triggers and timers  
 - Camera stabilization for dynamic racing  
-- Built with Unity (C#)  
+- Built with Unity (C#)
+
+![Terrain Tools](https://github.com/DominicTalbot/game-dev-portfolio/blob/b4fdb7c344cce08b5ec6e05daae66fe5e4d4f073/Images/DomsRacer3.png)
+
 
 ---
 
@@ -29,14 +32,14 @@
 - Trees and assets from Unity’s Standard Assets.  
 - Skybox: *Classic Skybox* from Unity Asset Store.  
 
-![Terrain Tools](https://github.com/DominicTalbot/game-dev-portfolio/blob/b4fdb7c344cce08b5ec6e05daae66fe5e4d4f073/Images/DomsRacer3.png)  
+![Terrain Tools](https://github.com/DominicTalbot/game-dev-portfolio/blob/79491e1777e638c863dd87cb55522f17848944df/Images/DomsRacer4.png)  
 *Figure: Terrain design process (from dissertation)*  
 
 ### **2. Car Controls & Camera**  
 - **Camera Stabilization**: Hidden GameObject tracks car rotation to prevent shaky footage.  
   ```csharp
   transform.eulerAngles = new Vector3(carX - carX, carY, carZ - carZ);
-AI Opponents: Waypoint system for pathfinding (see dissertation Figure 11).
+AI Opponents: Waypoint system for pathfinding.
 
 ### 3. **Lap System & Timer** 
 Triggers at halfway/finish lines to track laps.
