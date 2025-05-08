@@ -29,7 +29,7 @@
 - Trees and assets from Unity’s Standard Assets.  
 - Skybox: *Classic Skybox* from Unity Asset Store.  
 
-![Terrain Tools](/screenshots/terrain_tool.png)  
+![Terrain Tools](https://github.com/DominicTalbot/game-dev-portfolio/blob/b4fdb7c344cce08b5ec6e05daae66fe5e4d4f073/Images/DomsRacer3.png)  
 *Figure: Terrain design process (from dissertation)*  
 
 ### **2. Car Controls & Camera**  
