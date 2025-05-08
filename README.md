@@ -7,7 +7,7 @@
 # 🏎️ Dom's Racer  
 *A Unity-based racing game developed for a university dissertation on controller design impact*  
 
-![Gameplay Screenshot](/Images/DomsRacer2)  
+![Gameplay Screenshot](https://github.com/DominicTalbot/game-dev-portfolio/blob/e231680b6f9c851be1526f812c12feaa8fe1fb62/Images/DomsRacer.png)  
 *Figure: Screenshot of Dom's Racer in action (from dissertation)*  
 
 ---
