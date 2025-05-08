@@ -4,29 +4,73 @@
 
 ## **Project Showcase**
 
-### 1. Cyberpunk Runner (2023)
-**Tools:** Unity, Blender  
-![Cyberpunk Gameplay](https://raw.githubusercontent.com/[YOUR-USERNAME]/[REPO-NAME]/main/screenshots/cyberpunk/gameplay.png)  
-*Core movement system and neon city environment*
+# 🏎️ Dom's Racer  
+*A Unity-based racing game developed for a university dissertation on controller design impact*  
 
-![Cyberpunk UI](https://raw.githubusercontent.com/[YOUR-USERNAME]/[REPO-NAME]/main/screenshots/cyberpunk/menu.png)  
-*Main menu with custom shaders*
+![Gameplay Screenshot](/Images/DomsRacer2)  
+*Figure: Screenshot of Dom's Racer in action (from dissertation)*  
 
 ---
 
-### 2. Fantasy RPG Prototype (2022)
-**Tools:** Unreal Engine 5  
-![RPG Combat](https://raw.githubusercontent.com/[YOUR-USERNAME]/[REPO-NAME]/main/screenshots/rpg/battle.gif)  
-*Real-time combat prototype*
-
-![RPG World](https://raw.githubusercontent.com/[YOUR-USERNAME]/[REPO-NAME]/main/screenshots/rpg/open_world.jpg)  
-*Open world terrain test*
+## 📖 **Project Overview**  
+**Developed for**: BSc (Hons) Computer Game Technologies Dissertation (University of Suffolk, 2019)  
+**Research Focus**: Investigating the impact of controller design (Xbox One, Adaptive Controller, Keyboard) on player experience, heart rate, and performance.  
+**Key Features**:  
+- Custom terrain and AI-driven opponent cars  
+- Lap-tracking system with triggers and timers  
+- Camera stabilization for dynamic racing  
+- Built with Unity (C#)  
 
 ---
 
-## **Quick Setup Guide**
-1. Create a repo called `game-portfolio`
-2. Upload images to a `/screenshots` folder
-3. Use this format to display images:
-   ```markdown
-   ![Alt Text](https://raw.githubusercontent.com/[USER]/[REPO]/main/screenshots/folder/image.ext)
+## 🛠️ **Technical Implementation**  
+### **1. Terrain & Environment**  
+- Created using Unity’s Terrain Tool with custom textures/normal maps.  
+- Trees and assets from Unity’s Standard Assets.  
+- Skybox: *Classic Skybox* from Unity Asset Store.  
+
+![Terrain Tools](/screenshots/terrain_tool.png)  
+*Figure: Terrain design process (from dissertation)*  
+
+### **2. Car Controls & Camera**  
+- **Camera Stabilization**: Hidden GameObject tracks car rotation to prevent shaky footage.  
+  ```csharp
+  transform.eulerAngles = new Vector3(carX - carX, carY, carZ - carZ);
+AI Opponents: Waypoint system for pathfinding (see dissertation Figure 11).
+
+### 3. **Lap System & Timer** 
+Triggers at halfway/finish lines to track laps.
+
+- **C# timer converts milliseconds to minutes:seconds.
+
+```csharp
+if (SecondCount >= 60) {
+    SecondCount = 0;
+    MinuteCount += 1;
+}
+```
+
+---
+
+## 📊 **Research Findings**
+**Hypothesis:**  
+*"Using an unfamiliar controller affects player performance and heart rate."*
+
+### **Results**
+- The **Adaptive Controller** showed the highest mean max heart rate (**88.6 bpm** vs. **Keyboard’s 87.7 bpm**).
+- Participants reported higher excitement when using the Adaptive Controller due to its **large buttons**.
+
+### **Controls**
+- **Xbox/Adaptive Controller:** Triggers for acceleration/brake.
+- **Keyboard:** WASD (default Unity input).
+
+---
+
+## 🔍 **Dissertation Context**
+This game was part of a research study comparing **Xbox One, Adaptive, and Keyboard controllers**.
+
+### **Key Insights**
+- **Controller design impacts** player comfort and heart rate.
+- **Future work:** Expanding participant demographics (see dissertation **Chapter 6**).
+
+📄 **Full Dissertation:** [PDF Link] _(Attach or link to your dissertation)_
