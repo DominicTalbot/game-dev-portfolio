@@ -73,4 +73,5 @@ This game was part of a research study comparing **Xbox One, Adaptive, and Keybo
 - **Controller design impacts** player comfort and heart rate.
 - **Future work:** Expanding participant demographics (see dissertation **Chapter 6**).
 
-📄 **Full Dissertation:** [PDF Link] _(Attach or link to your dissertation)_
+📄 **Full Dissertation:** [View Dissertation](https://github.com/DominicTalbot/game-dev-portfolio/blob/45d62db4e5110260660ecb519a0fd4f13f8dc7c3/Documents/FinalDissertation.docx4.pdf)
+
