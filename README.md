@@ -7,7 +7,8 @@
 # 🏎️ Dom's Racer  
 *A Unity-based racing game developed for a university dissertation on controller design impact*  
 
-![Gameplay Screenshot](https://github.com/DominicTalbot/game-dev-portfolio/blob/e231680b6f9c851be1526f812c12feaa8fe1fb62/Images/DomsRacer.png)  
+<img src="https://github.com/DominicTalbot/game-dev-portfolio/blob/e231680b6f9c851be1526f812c12feaa8fe1fb62/Images/DomsRacer.png?raw=true" alt="Gameplay Screenshot" width="900"/>
+
 *Figure: Screenshot of Dom's Racer in action (from dissertation)*  
 
 ---
@@ -21,7 +22,8 @@
 - Camera stabilization for dynamic racing  
 - Built with Unity (C#)
 
-![Terrain Tools](https://github.com/DominicTalbot/game-dev-portfolio/blob/b4fdb7c344cce08b5ec6e05daae66fe5e4d4f073/Images/DomsRacer3.png)
+<img src="https://github.com/DominicTalbot/game-dev-portfolio/blob/b4fdb7c344cce08b5ec6e05daae66fe5e4d4f073/Images/DomsRacer3.png?raw=true" alt="Terrain Tools" width="500"/>
+
 
 
 ---
@@ -32,7 +34,8 @@
 - Trees and assets from Unity’s Standard Assets.  
 - Skybox: *Classic Skybox* from Unity Asset Store.  
 
-![Terrain Tools](https://github.com/DominicTalbot/game-dev-portfolio/blob/79491e1777e638c863dd87cb55522f17848944df/Images/DomsRacer4.png)  
+<img src="https://github.com/DominicTalbot/game-dev-portfolio/blob/79491e1777e638c863dd87cb55522f17848944df/Images/DomsRacer4.png?raw=true" alt="Terrain Tools" width="800"/>
+
 *Figure: Terrain design process (from dissertation)*  
 
 ### **2. Car Controls & Camera**  
